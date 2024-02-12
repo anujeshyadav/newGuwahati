@@ -1,0 +1,140 @@
+<Inspection>
+<MyDropDown>
+<dropdown>
+<label>Inspection Type *</label>
+<name>InspectionType</name>
+<option value="OEM">OEM</option>
+<option value="DISTRIBUTOR">DISTRIBUTOR</option>
+<option value="DEALER">DEALER</option>
+<option value="Customer">Customer</option>
+</dropdown>
+</MyDropDown>
+<MyDropDown>
+<dropdown>
+<label>Partner Code *</label>
+<name>PartnerCode</name>
+<option value="001">001</option>
+<option value="002">002</option>
+<option value="003">003</option>
+</dropdown>
+</MyDropDown>
+<input>
+<label>Partner Name</label>
+<type type="text">text</type>
+<name>PartnerName</name>
+<placeholder> Partner Name</placeholder>
+</input>
+<input>
+<label>Customer Phone</label>
+<type type="number">text</type>
+<name>CustomerPhone</name>
+<phoneinput>yes</phoneinput>
+<placeholder>CustomerPhone </placeholder>
+</input>
+<MyDropDown>
+<dropdown>
+<label>Inspection Done By *</label>
+<name>InspectionType</name>
+<option value="OEM">OEM</option>
+<option value="DISTRIBUTOR">DISTRIBUTOR</option>
+<option value="DEALER">DEALER</option>
+<option value="Customer">Customer</option>
+</dropdown>
+</MyDropDown>
+<input>
+<label>Customer Name </label>
+<type type="text">text</type>
+<name>CustomerName</name>
+</input>
+<input>
+<label>Customer Name </label>
+<type type="text">text</type>
+<name>CustomerName</name>
+</input>
+<input>
+<label>Customer ID# </label>
+<type type="text">text</type>
+<name>CustomerId</name>
+</input>
+<input>
+<label>Customer Email </label>
+<type type="email">text</type>
+<name>CustomerEmail</name>
+</input>
+<MyDropDown>
+<dropdown>
+<label>Partner Code *</label>
+<name>PartnerCode</name>
+<option value="001">001</option>
+<option value="002">002</option>
+<option value="003">003</option>
+</dropdown>
+</MyDropDown>
+<input>
+<label>Partner Name</label>
+<name>PartnerName</name>
+<type type="number">text</type>
+<placeholder>Partner Name</placeholder>
+</input>
+<input>
+<label>Partner Address</label>
+<type type="textarea">text</type>
+<name>PartnerAddress</name>
+<placeholder> Partner Address</placeholder>
+</input>
+<input>
+<label>Product Name </label>
+<type type="text">text</type>
+<name>ProductName</name>
+</input>
+<input>
+<label>Days to Expire</label>
+<type type="date">text</type>
+<name>DaystoExpire</name>
+</input>
+<MyDropDown>
+<dropdown>
+<label>Sold By *</label>
+<name>Soldby</name>
+<option value="OEM">OEM</option>
+<option value="Distributor">Distributor</option>
+<option value="Dealer">Dealer</option>
+</dropdown>
+</MyDropDown>
+<input>
+<label>Address</label>
+<name>address</name>
+<type type="textarea">text</type>
+<placeholder>Address</placeholder>
+</input>
+<CheckBox>
+<input>
+<label>Whatsapp</label>
+<type type="checkbox">text</type>
+<name>whatsapp</name>
+</input>
+<input>
+<label>SMS</label>
+<type type="checkbox">text</type>
+<name>sms</name>
+</input>
+<input>
+<label>Mail</label>
+<type type="checkbox">text</type>
+<name>gmail</name>
+</input>
+</CheckBox>
+<Radiobutton>
+<Heading>Status</Heading>
+<input>
+<label>Active</label>
+<type type="radio">text</type>
+<name>Status</name>
+</input>
+<input>
+<label>Deactive</label>
+<type type="radio">text</type>
+<name>Status</name>
+</input>
+</Radiobutton>
+</Inspection>

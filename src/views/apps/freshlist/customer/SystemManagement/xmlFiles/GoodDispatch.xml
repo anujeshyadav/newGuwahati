@@ -1,0 +1,40 @@
+<GoodDispatch>
+<input>
+<label>CN Upload</label>
+	<type type="file">text</type>
+    <name>CNUpload</name>
+	</input>
+    
+<input>
+<label>Fetch Sales Invoice</label>
+	<type type="file">text</type>
+    <name>FetchSalesInvoice</name>
+	</input>
+    
+    <input>
+	<label>CN Details</label>
+	<type type="text">text</type>
+    <name>CNDetails</name>
+    <placeholder>Enter CN Details</placeholder>
+	</input>
+
+
+    <MyDropdown>
+	<dropdown>
+	<label>Assign Delivery Boy</label>
+	<name>AssignDeliveryBoy</name>
+	<option value="user1">user1</option>
+	<option value="user2">user2</option>
+	<option value="user3">user3</option>
+	<option value="user4">user4</option>
+	</dropdown>
+    </MyDropdown>
+
+    <input>
+	<label>Delivery Authentication</label>
+	<type type="text">text</type>
+    <name>DeliveryAuthentication</name>
+    <placeholder>Enter Delivery</placeholder>
+	</input>
+
+</GoodDispatch>

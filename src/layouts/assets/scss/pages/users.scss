@@ -1,0 +1,93 @@
+/*** User pages ***/
+
+.users-avatar-shadow {
+  box-shadow: 2px 4px 14px 0 rgba(34, 41, 47, 0.4);
+}
+.css-1r4vtzz {
+  width: 100% !important;
+}
+
+// aggrid actions dropdown
+.actions-dropdown {
+  .btn-group .btn {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14) !important;
+    border-radius: 0.5rem !important;
+  }
+}
+// date picker width
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+[dir="ltr"] .year-picker {
+  text-align: left;
+  width: 100% !important;
+  height: 40px;
+}
+// User view Table
+.permissions-table {
+  td,
+  th {
+    padding: 0.5rem;
+  }
+}
+
+// User view info
+.users-page-view-table .user-info {
+  div {
+    padding: 0.5rem;
+  }
+  .user-info-title {
+    font-size: 16px;
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ag-grid-table {
+    .ag-paging-panel {
+      height: 160px;
+    }
+    .sort-dropdown {
+      margin-bottom: 1rem;
+    }
+  }
+}
+// multiselecetdropdown css Addition css
+
+.multiSelectContainer input {
+  margin-right: 10px !important;
+}
+.chip {
+  background-color: #0096fb;
+}
+
+// view order with invoice
+[dir] .table th,
+[dir] .table td {
+  padding: 9px !important;
+}
+
+// .table tr th td{
+//   border:1px solid #bb1717 ;
+// }
+
+input.form-control.myphoneinput {
+  width: 100%;
+}
+.tableheadingparts {
+  height: 263px;
+  overflow-y: scroll;
+}
+
+// policy css
+.mainDiv {
+  display: flex;
+}
+.child {
+  width: 100px;
+  margin: 0px 10px;
+}
+.dropdownselect {
+  width: 156px;
+}

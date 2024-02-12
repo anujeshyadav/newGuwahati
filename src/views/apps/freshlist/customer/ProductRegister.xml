@@ -1,0 +1,234 @@
+<ProductRegister>
+
+    <input>
+	<label>Product Serial Number</label>
+	<type type="text"></type>
+    <name>P_serialNo.</name>
+    <placeholder>Enter Product Serial Number</placeholder>
+	</input>
+	
+    <input>
+	<label>Phone No</label>
+	<type type="number"></type>
+    <name>Phone_Number</name>
+    <placeholder>Enter Phone Number</placeholder>
+	</input>
+
+    <input>
+	<label>Length</label>
+	<type type="number">text</type>
+    <name>P_length</name>
+    <placeholder>Enter length </placeholder>
+	</input>
+
+    <input>
+	<label>height</label>
+	<type type="number">text</type>
+    <name>height</name>
+    <placeholder>Enter height</placeholder>
+	</input>
+
+    <input>
+	<label>Width</label>
+	<type type="number">text</type>
+    <name>width</name>
+    <placeholder>Enter width</placeholder>
+	</input>
+
+    <input>
+	<label>WheelBase</label>
+	<type type="number">text</type>
+    <name>WheelBase</name>
+    <placeholder>Enter Wheelbase</placeholder>
+	</input>
+
+    <input>
+	<label>Ground Clearence</label>
+	<type type="number">text</type>
+    <name>groundClearence</name>
+    <placeholder>Enter Ground Clearnence</placeholder>
+	</input>
+
+    <input>
+	<label>Kerb Weight</label>
+	<type type="number">text</type>
+    <name>KerbWeight</name>
+    <placeholder>Enter Kerb Weight</placeholder>
+	</input>
+
+    <input>
+	<label>Number of Seating Row</label>
+	<type type="number">text</type>
+    <name>Seating_capacity</name>
+    <placeholder>Enter Seating capacity</placeholder>
+	</input>
+
+
+<checkboxmain>
+<checkboxhead>
+	<Heading>Over Speed Warning</Heading>
+	<input>
+	<label>Yes</label>
+	<value>Yes</value>
+	<type type="checkbox">text</type>
+    <name>OverSpeed</name>
+	</input>
+
+	<input>
+	<label>No</label>
+	<value>No</value>
+	<type type="checkbox">text</type>
+    <name>OverSpeed</name>
+	</input>
+</checkboxhead>
+
+<checkboxhead>
+	<Heading>Antilock Breaking System</Heading>
+	<input>
+	<label>Yes</label>
+	<value>Yes</value>
+	<type type="checkbox">text</type>
+    <name>ABS</name>
+	</input>
+
+	<input>
+	<label>No</label>
+	<value>No</value>
+	<type type="checkbox">text</type>
+    <name>ABS</name>
+	</input>
+    <!-- <placeholder>Enter Address</placeholder> -->
+</checkboxhead>
+<checkboxhead>
+	<Heading>Break Assist</Heading>
+	<input>
+	<label>Yes</label>
+	<value>Yes</value>
+	<type type="checkbox">text</type>
+    <name>Break_Assist</name>
+	</input>
+
+	<input>
+	<label>No</label>
+	<value>No</value>
+	<type type="checkbox">text</type>
+    <name>Break_Assist</name>
+	</input>
+</checkboxhead>
+
+<checkboxhead>
+	<Heading>Hill Hold Control:</Heading>
+	<input>
+	<label>Yes</label>
+	<value>Yes</value>
+	<type type="checkbox"></type>
+    <name>hillhold</name>
+	</input>
+
+	<input>
+	<label>No</label>
+	<value>No</value>
+	<type type="checkbox"></type>
+    <name>hillhold</name>
+	</input>
+</checkboxhead>
+<checkboxhead>
+	<Heading>Seat Belt Warning:</Heading>
+	<input>
+	<label>Yes</label>
+	<value>Yes</value>
+	<type type="checkbox"></type>
+    <name>Seatbelt</name>
+	</input>
+
+	<input>
+	<label>No</label>
+	<value>No</value>
+	<type type="checkbox"></type>
+    <name>Seatbelt</name>
+	</input>
+</checkboxhead>
+<checkboxhead>
+	<Heading>Child Seat Anchor Points:</Heading>
+	<input>
+	<label>Yes</label>
+	<value>Yes</value>
+	<type type="checkbox"></type>
+    <name>Childseatpoint</name>
+	</input>
+
+	<input>
+	<label>No</label>
+	<value>No</value>
+	<type type="checkbox"></type>
+    <name>Childseatpoint</name>
+	</input>
+</checkboxhead>
+<checkboxhead>
+	<Heading>Type Pressure Monitoring System:</Heading>
+	<input>
+	<label>Yes</label>
+	<value>Yes</value>
+	<type type="checkbox"></type>
+    <name>pressure_Monitoring_system</name>
+	</input>
+
+	<input>
+	<label>No</label>
+	<value>No</value>
+	<type type="checkbox"></type>
+    <name>pressure_Monitoring_system</name>
+	</input>
+</checkboxhead>
+</checkboxmain>
+
+<MyDropdown>
+	<dropdown>
+	<label>Modal</label>
+	<name>Modal</name>
+	<option value="Harrier">Harrier</option>
+	<option value="Nexon">Nexon</option>
+	<option value="Tiago">Tiago</option>
+	<option value="Safari">Safari</option>
+
+	</dropdown>
+	<dropdown>
+	<label>Variant</label>
+	<name>Variant</name>
+	<option value="XE">XE</option>
+	<option value="ME">Nexon</option>
+	<option value="XMS">XMS</option>
+	<option value="XZ">XZ</option>
+
+	</dropdown>
+
+
+	<dropdown>
+	<label>Product Name</label>
+	<name>Productname</name>
+	<option value="Harrier">Harrier</option>
+
+	</dropdown>
+	<dropdown>
+	<label>Product Type</label>
+	<name>Product_Type</name>
+	<option value="Solo">Solo</option>
+	<option value="Associated">Associated</option>
+	<option value="XMS">XMS</option>
+	<option value="XZ">XZ</option>
+
+	</dropdown>
+
+	<dropdown>
+	<label>Fuel Type</label>
+	<name>FuelType</name>
+	<option value="Petrol">Petrol</option>
+	<option value="Diesel">Diesel</option>
+	<option value="EV">EV</option>
+
+	</dropdown>
+	</MyDropdown>
+		
+	
+ 
+</ProductRegister>

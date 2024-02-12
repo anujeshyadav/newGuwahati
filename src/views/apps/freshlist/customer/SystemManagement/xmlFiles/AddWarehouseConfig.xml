@@ -1,0 +1,37 @@
+<AddWareHouse>
+
+    <input>
+	<label>WarehouseName</label>
+	<type type="text">text</type>
+    <name>WarehouseName</name>
+    <placeholder>Enter WarehouseName</placeholder>
+	</input>
+
+    <input>
+	<label>Mobile No.</label>
+	<type type="number">text</type>
+    <name>mobileno</name>
+    <placeholder>Enter Mobile No.</placeholder>
+	</input>
+
+	<input>
+	<label>Email</label>
+	<type type="email">email</type>
+    <name>email</name>
+    <placeholder>Enter Email</placeholder>
+	</input>
+
+	<input>
+	<label>Location</label>
+	<type type="textarea">location</type>
+    <name>locaton</name>
+    <placeholder>Enter Warehouse Location </placeholder>
+	</input>
+
+	<input>
+	<label>Warehouse Photo</label>
+	<type type="file">location</type>
+    <name>WarehousePhoto</name>
+	</input>
+
+</AddWareHouse>

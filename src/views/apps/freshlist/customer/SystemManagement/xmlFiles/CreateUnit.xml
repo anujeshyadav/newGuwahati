@@ -1,0 +1,25 @@
+<CreateUnit>
+
+
+<input>
+	<label>Name</label>
+	<type type="text">text</type>
+    <name>Name</name>
+    <placeholder>Enter Name</placeholder>
+	</input>
+
+	<input>
+	<label>Quantity</label>
+	<type type="number">text</type>
+    <name>Quantity</name>
+    <placeholder>Enter Quantity</placeholder>
+	</input>
+
+    <input>
+	<label>Bundle</label>
+	<type type="text">text</type>
+    <name>Bundle</name>
+    <placeholder>Enter Bundle</placeholder>
+	</input>
+
+</CreateUnit>

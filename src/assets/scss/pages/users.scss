@@ -1,0 +1,309 @@
+/*** User pages ***/
+// -------
+ul.subtotal li {
+  list-style: none;
+}
+
+.setInput {
+  margin: 9px;
+}
+.inputwidth {
+  width: 100px;
+}
+.Qntywidth {
+  width: 80px;
+}
+.QntBtn {
+  width: 200px;
+  display: flex;
+}
+.btnStyle {
+  margin-top: 8px;
+}
+.maininput {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 80%;
+}
+.users-avatar-shadow {
+  box-shadow: 2px 4px 14px 0 rgba(34, 41, 47, 0.4);
+}
+
+// aggrid actions dropdown
+.actions-dropdown {
+  .btn-group .btn {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14) !important;
+    border-radius: 0.5rem !important;
+  }
+}
+// date picker width
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+input.customcheckbox {
+  margin-top: 13px;
+  width: 36px;
+  height: 21px;
+}
+// User view Table
+.permissions-table {
+  td,
+  th {
+    padding: 0.5rem;
+  }
+}
+
+// User view info
+.users-page-view-table .user-info {
+  div {
+    padding: 0.5rem;
+  }
+  .user-info-title {
+    font-size: 16px;
+    min-width: 300px;
+  }
+}
+
+.attachment .attachSection {
+  margin: 30px 5px;
+}
+span.orderId {
+  font-size: 18px;
+  font-weight: 800;
+}
+@media (max-width: 576px) {
+  .ag-grid-table {
+    .ag-paging-panel {
+      height: 160px;
+    }
+    .sort-dropdown {
+      margin-bottom: 1rem;
+    }
+  }
+}
+input.addinarray {
+  /* border: 1px solid black; */
+  width: 30px;
+  height: 19px;
+}
+
+.dispatched {
+  padding: 164px 45px;
+}
+// Button[title] {
+//   color: purple;
+// }
+// .custom-button::before {
+//   content: attr(title); /* Set the content to the title attribute value */
+//   background-color: black; /* Example background color */
+//   color: white; /* Example text color */
+//   padding: 5px;
+//   position: absolute;
+//   z-index: 1;
+//   top: -30px; /* Adjust the distance from the button */
+//   left: 50%; /* Position at the center of the button */
+//   transform: translateX(-50%);
+//   opacity: 0; /* Initially hide the tooltip */
+//   transition: opacity 0.3s ease;
+// }
+div.ex1 {
+  background-color: rgb(240, 240, 240);
+  height: 280px;
+  // width: 200px;
+  overflow-y: scroll;
+}
+.mycustomtag:hover {
+  background-color: #1877f2;
+  border-radius: "12px";
+}
+.mycustomtag {
+  padding: 0px 5px;
+}
+.colarrowbtn {
+  padding: 125px 60px;
+  display: flex;
+  justify-content: center;
+}
+.modalbodyhead {
+  padding: 7%;
+}
+.modalbodyheadunit {
+  padding: 3%;
+}
+.modal .modal-header {
+  background-color: #00c0ef;
+}
+span.priamryValue {
+  padding-left: 10px;
+}
+input.mx-1 {
+  width: 23px;
+  height: 19px;
+}
+.arrowassign {
+  color: #055761;
+}
+.arrowassign:hover {
+  color: green;
+}
+.dropdownmy {
+  border: 1px dotted;
+  border-radius: 5px;
+  width: 117px;
+  right: 0px;
+  top: 28px;
+  // background-color: #f5f1f1;
+}
+.myactive:hover {
+  color: rgb(255, 255, 255);
+  background-color: blue;
+}
+.updownbtn {
+  padding: 128px 25px;
+}
+// button.mybtn.primary.btn.btn-primary {
+//   padding: 11px 22px;
+//   position: absolute;
+//   right: 2px;
+//   top: 0px;
+// }
+// [dir=ltr] button.mybtn.primary.btn.btn-primary {
+//   position: absolute;
+//   right: 2px;
+// }
+
+button.mybtn.primary.btn.btn-primary {
+  border-top-right-radius: 0.4285rem !important;
+  border-bottom-right-radius: 0.4285rem !important;
+  // text-align: center;
+  // background-color: transparent;
+  // border: 0 solid transparent;
+  // padding: 0.9rem 2rem;
+}
+
+input.form-check-input {
+  width: 16px;
+  height: 23px;
+}
+
+// [dir] .form-control {
+//   border-radius: 27px;
+//   padding: 26px 21px;
+//   outline: none;
+//   box-sizing: border-box;
+//   transition: 0.3s;
+//   /* box-shadow: 2px 3px 8px #84cdbb; */
+//   border: 1px solid #21ccc2;
+// }
+[dir] .form-control {
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+  box-shadow: 2px 3px 8px #84cdbb;
+  border: 1px solid #d9d9d9;
+}
+[dir] .form-control:hover {
+  box-shadow: 4px 3px 3px #84cdbb;
+  border: 1px solid #055761;
+}
+.css-yk16xz-control:hover {
+  box-shadow: 4px 3px 3px #055761;
+}
+.css-yk16xz-control {
+  box-shadow: 4px 3px 3px #84cdbb;
+}
+select.custom-select {
+  box-shadow: 4px 3px 3px #84cdbb;
+}
+select.custom-select:hover {
+  box-shadow: 4px 3px 3px #84cdbb;
+}
+
+.tabletr:hover {
+  background-color: #84cdba !important;
+}
+.shedulemodalbody {
+  background-color: #055761;
+}
+.tableRowStyle {
+  color: white !important;
+}
+.tableRowStyles {
+  color: white !important;
+}
+.tableRowStyles:hover {
+  color: rgb(241, 229, 229) !important;
+  background-color: #055761 !important;
+}
+
+.imagebackground :hover {
+  background-color: #00c0ef;
+  border: 1px solid aqua;
+}
+
+// anuejsh css for table view change in all 
+
+.ag-header-cell-label {
+  font-weight: bolder;
+}
+
+.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value {
+  border-bottom: 1px solid #d9d5d5;
+  border-right: 1px solid #c1c1c1;
+}
+
+.ag-header-cell.ag-header-cell-sortable {
+  background-color: #edad76 !important;
+  display: flex;
+  color: black;
+  border: 1px solid #c3c3c3 !important;
+}
+input.true.inputdataone {
+  margin: 33px 2px;
+  width: 3rem !important;
+  height: 4rem;
+}
+// sadik css below
+// h3.table-item {
+//   color: #fff;
+// }
+
+// .table-body.modal-body {
+//   background-color: #055761;
+// }
+// .table-item {
+//   color: #fff;
+// }
+
+// tr.tableRowStyle {
+//   color: #fff;
+// }
+.table-responsive {
+  overflow-y: scroll;
+  height: 360px;
+}
+input.permissioncheckbox {
+  height: 22px;
+}
+.p-1.ag-dropdown.dropdown {
+  cursor: pointer;
+  background: transparent;
+  border-radius: 38px;
+  border: 1px solid #d5cdcd;
+}
+th {
+
+  border: 1px solid black !important;
+}
+
+td {
+
+  border: 1px solid black !important;
+}
+[dir] .ag-theme-material {
+  height: 100% !important;
+  background-color: #fff;
+}

@@ -1,0 +1,339 @@
+<createOrder>
+<OType>
+<input>
+<label>Parts Order ID</label>
+<type type="text">text</type>
+<name>partorderId</name>
+</input>
+<input>
+<label>New Order</label>
+<type type="text">text</type>
+<name>NewOrder</name>
+</input>
+
+<input>
+<label>Order Id</label>
+<type type="text">text</type>
+<name>OrderId</name>
+</input>
+<MyDropDown>
+<dropdown>
+<label>Ordered By</label>
+<name>OrderedBy</name>
+<option value="OEM">OEM</option>
+<option value="DISTRIBUTOR">DISTRIBUTOR</option>
+<option value="DEALER">DEALER</option>
+<option value="Supplier">Supplier</option>
+</dropdown>
+</MyDropDown>
+<MyDropDown>
+<dropdown>
+<label>Partner Code </label>
+<name>PartnerCode</name>
+<option value="001">001</option>
+<option value="002">002</option>
+<option value="003">003</option>
+</dropdown>
+</MyDropDown>
+<input>
+<label>Partner Name</label>
+<type type="text">text</type>
+<Readonly>yes</Readonly>
+<name>WTPname</name>
+<placeholder>Enter Partner Name</placeholder>
+</input>
+<SuppliedBy>
+<MyDropDown>
+<dropdown>
+<label>Supplied By</label>
+<name>SuppliedBy</name>
+<option value="OEM">OEM</option>
+<option value="DISTRIBUTOR">DISTRIBUTOR</option>
+<option value="DEALER">DEALER</option>
+<option value="Supplier">Supplier</option>
+</dropdown>
+</MyDropDown>
+<MyDropDown>
+<dropdown>
+<label>Supplier Code </label>
+<name>SupplierCode</name>
+<option value="001">s001</option>
+<option value="002">s002</option>
+<option value="003">s003</option>
+</dropdown>
+</MyDropDown>
+</SuppliedBy>
+<input>
+<label>Supplier Name</label>
+<Readonly>yes</Readonly>
+<type type="number">text</type>
+<name>SupplierName</name>
+<placeholder> SupplierName</placeholder>
+</input>
+<input>
+<label>Supplier Location</label>
+<name>SupplierLocation</name>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+<placeholder>Supplier Location</placeholder>
+</input>
+<MyDropDown>
+<dropdown>
+<label>Order Type </label>
+<name>SupplierCode</name>
+<option value="Parts">Parts</option>
+<option value="Product">Product</option>
+</dropdown>
+</MyDropDown>
+<MyDropDown>
+<dropdown>
+<label>Partner Code</label>
+<name>WtpOnecode</name>
+<option value="s001">s001</option>
+<option value="s002">s002</option>
+<option value="s003">s003</option>
+</dropdown>
+</MyDropDown>
+<input>
+<label>Partner Address</label>
+<type type="textarea">text</type>
+<Readonly>Yes</Readonly>
+<name>Wtponeadress</name>
+<placeholder> Partner Address</placeholder>
+</input>
+</OType>
+<ProductDetails>
+<input>
+<label>Product Name </label>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+<name>PdPname</name>
+</input>
+<input>
+<label>Product#</label>
+<lookup>yes</lookup>
+<type type="text">text</type>
+<Readonly>yes</Readonly>
+<placeholder> ProductNo</placeholder>
+<name>PDProduct</name>
+</input>
+<input>
+<label>Product Image</label>
+<lookup>yes</lookup>
+<type type="file">text</type>
+<Readonly>yes</Readonly>
+<placeholder> ProductNo</placeholder>
+<name>PDImg</name>
+</input>
+<input>
+<label>Product Quantity</label>
+<Readonly>yes</Readonly>
+<type type="number">text</type>
+<name>PQuantity</name>
+<placeholder>Quantity</placeholder>
+</input>
+<MyDropDown>
+<dropdown>
+<label>Partner Code</label>
+<name>PdWarPcode</name>
+<option value="001">001</option>
+<option value="002">002</option>
+<option value="003">003</option>
+</dropdown>
+</MyDropDown>
+<input>
+<label>Partner Name</label>
+<name>PdWarPartnerName</name>
+<Readonly>yes</Readonly>
+<type type="number">text</type>
+<placeholder>Partner Name</placeholder>
+</input>
+<input>
+<label>Address</label>
+<name>PdWarPartneraddress</name>
+<Readonly>yes</Readonly>
+<type type="textarea">text</type>
+<placeholder>Address</placeholder>
+</input>
+</ProductDetails>
+<PartDetails>
+<input>
+<label>Part#</label>
+<lookup>yes</lookup>
+<type type="text">text</type>
+<placeholder>Part</placeholder>
+<Readonly>yes</Readonly>
+<name>Partroduct</name>
+</input>
+<input>
+<label>Part Name </label>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+<placeholder>Partname</placeholder>
+<name>Partname</name>
+</input>
+<input>
+<label>Part Image </label>
+<Readonly>yes</Readonly>
+<type type="file">text</type>
+<name>PartImg</name>
+</input>
+</PartDetails>
+<input>
+<label>OEM Part Price</label>
+<name>OEMPartPrice</name>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+<placeholder>OEM Part Price</placeholder>
+</input>
+<input>
+<label>Distributor Price</label>
+<name>OEMPartPrice</name>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+<placeholder>OEM Part Price</placeholder>
+</input>
+<input>
+<label>Dealer Part Price</label>
+<name>DealerPartPrice</name>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+<placeholder>Dealer Part Price</placeholder>
+</input>
+<MyDropDown>
+<dropdown>
+<label>Warehouse location</label>
+<name>SupplierCode</name>
+<option value="wh001">wh001</option>
+<option value="whoo2">whoo2</option>
+</dropdown>
+</MyDropDown>
+<input>
+<label>Warehouse location name</label>
+<name>Warehouselocationname</name>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+<placeholder>Warehouse location name</placeholder>
+</input>
+<input>
+<heading>Warranty Covered</heading>
+<label>Yes</label>
+<Readonly>Yes</Readonly>
+<type type="checkbox">text</type>
+<name>Warrantycovered</name>
+<value>Yes</value>
+</input>
+<input>
+<label>No</label>
+<Readonly>yes</Readonly>
+<type type="checkbox">text</type>
+<name>Warrantycovered</name>
+<value>No</value>
+</input>
+<input>
+<heading>Covered Under Warranty</heading>
+<label>Yes</label>
+<Readonly>Yes</Readonly>
+<type type="checkbox">text</type>
+<name>Warrantycovered</name>
+<value>Yes</value>
+</input>
+<input>
+<label>No</label>
+<Readonly>yes</Readonly>
+<type type="checkbox">text</type>
+<name>Warrantycovered</name>
+<value>No</value>
+</input>
+<input>
+<label>Tied to</label>
+<name>Tiedto</name>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+<placeholder>Tied to</placeholder>
+</input>
+<input>
+<label>Start Date</label>
+<name>startDate</name>
+<Readonly>yes</Readonly>
+<type type="date">text</type>
+</input>
+<input>
+<label>End Date</label>
+<name>EndDate</name>
+<Readonly>yes</Readonly>
+<type type="date">text</type>
+</input>
+<input>
+<label>Discount</label>
+<name>Discount</name>
+<Readonly>yes</Readonly>
+<type type="number">text</type>
+</input>
+<MyDropDown>
+<dropdown>
+<label>Courier By</label>
+<name>CourierBy</name>
+<option value="DTDC">DTDC</option>
+<option value="FedEX">FedEX</option>
+<option value="UPS">UPS</option>
+<option value="Vendor">Vendor</option>
+</dropdown>
+</MyDropDown>
+<input>
+<label>Tracking# </label>
+<name>Tracking</name>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+</input>
+<input>
+<label>Shipping Cost </label>
+<name>ShippingCost</name>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+</input>
+<input>
+<label>Shipping Address</label>
+<name>ShippingAddress</name>
+<Readonly>yes</Readonly>
+<type type="textarea">text</type>
+</input>
+<input>
+<label>Billing Address</label>
+<name>BillingAddress</name>
+<Readonly>yes</Readonly>
+<type type="textarea">text</type>
+</input>
+<input>
+<label>Created Date</label>
+<name>CreatedDate</name>
+<Readonly>yes</Readonly>
+<type type="text">text</type>
+</input>
+<input>
+<label>Modified Date</label>
+<name>ModifiedDate</name>
+<Readonly>yes</Readonly>
+<type type="date">text</type>
+</input>
+<input>
+<label>Order Date</label>
+<name>OrderDate</name>
+<type type="date">text</type>
+</input>
+
+<!--  <Radiobutton>
+<Heading>Status</Heading>
+<input>
+<label>Active</label>
+<type type="radio">text</type>
+<name>Status</name>
+</input>
+<input>
+<label>Deactive</label>
+<type type="radio">text</type>
+<name>Status</name>
+</input>
+</Radiobutton>  -->
+
+</createOrder>

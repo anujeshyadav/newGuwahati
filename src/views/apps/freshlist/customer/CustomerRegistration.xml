@@ -1,0 +1,98 @@
+ <?xml version="1.0" encoding="UTF-8"?> 
+<CustomerRegistration>
+
+    <input>
+	<label>Registration Date</label>
+	<data type="date">mm/dd/yyyy</type>
+    <name>RegistDate</name>
+    <placeholder>Registration Date</placeholder>
+	</input>
+
+    <input>
+	<label>Product Delivered Date</label>
+	<data type="date">mm/dd/yyyy</type>
+    <name>ProductDeliDate</name>
+    <placeholder>Product Delivered Date </placeholder>
+	</input>
+
+    <input>
+	<label>Shipped Date</label>
+	<data type="date">mm/dd/yyyy</type>
+    <name>ShippedDate</name>
+    <placeholder>Enter ShippedDate</placeholder>
+	</input>
+
+    <input>
+	<label>Order Date</label>
+	<data type="date">mm/dd/yyyy</type>
+    <name>OrderDate</name>
+    <placeholder>Enter Order Date</placeholder>
+	</input>
+
+    <input>
+	<label>Invoice Date</label>
+	<data type="date">mm/dd/yyyy</type>
+    <name>InvoiceDate</name>
+    <placeholder>Enter Invoice Date</placeholder>
+	</input>
+
+    <input>
+	<label>Registered To</label>
+	<type type="text">text</type>
+    <name>RegisteredTo</name>
+    <placeholder>Enter Registered To</placeholder>
+	</input>
+
+    <input>
+	<label>Product Price</label>
+	<type type="text">text</type>
+    <name>ProductPrice</name>
+    <placeholder>Enter Product Price</placeholder>
+	</input>
+
+    <MyDropdown>
+    <dropdown>
+	<label>Warranty Applied</label>
+	<name>second dropdown</name>
+	<option value="Standard Warranty">Standard Warranty</option>
+	<option value="Extented Warranty">Extented Warranty</option>
+    </dropdown>
+	</MyDropdown>
+
+    <input>
+	<label>Warranty Start Date</label>
+	<data type="date">mm/dd/yyyy</type>
+    <name>WarrantyStartDate</name>
+    <placeholder> Warranty Start Date</placeholder>
+	</input>
+
+    <input>
+	<label>Warranty End Date</label>
+	<data type="date">mm/dd/yyyy</type>
+    <name>WarrantyEndDate</name>
+    <placeholder> Warranty End Date</placeholder>
+	</input>
+
+    <input>
+	<label>Industry</label>
+	<type type="text">text</type>
+    <name>Industry</name>
+    <placeholder>Enter Industry</placeholder>
+	</input>
+
+    <input>
+	<label>Used as</label>
+	<type type="text">text</type>
+    <name>UsedAs</name>
+    <placeholder>Enter Used as</placeholder>
+	</input>
+
+    <input>
+	<label>ZipCode</label>
+	<type type="number">text</type>
+    <name>ZipCode</name>
+    <placeholder>Enter ZipCode</placeholder>
+	</input>
+
+ 
+</CustomerRegistration>

@@ -1,0 +1,70 @@
+<createProduct>
+	<MyDropDown>
+		<dropdown>
+			<label>Category *</label>
+			<name>category</name>
+			<option value="001">001</option>
+			<option value="002">002</option>
+			<option value="003">003</option>
+		</dropdown>
+	</MyDropDown>
+	<MyDropDown>
+		<dropdown>
+			<label>SubCategory</label>
+			<name>SubCategory</name>
+			<option value="001">001</option>
+			<option value="002">002</option>
+			<option value="003">003</option>
+		</dropdown>
+	</MyDropDown>
+	<MyDropDown>
+		<dropdown>
+			<label>Unit</label>
+			<name>Unit</name>
+			<option value="001">001</option>
+			<option value="002">002</option>
+			<option value="003">003</option>
+		</dropdown>
+	</MyDropDown>
+	<input>
+		<label>Product Title</label>
+		<type type="text"></type>
+		<name>Product_Title</name>
+		<placeholder>Enter Product title</placeholder>
+	</input>
+	<input>
+		<label>Size</label>
+		<type type="number"></type>
+		<name>Size</name>
+		<placeholder>Enter Size </placeholder>
+	</input>
+	<input>
+		<label>HSN Code</label>
+		<type type="text"></type>
+		<name>HSN_Code</name>
+		<placeholder>HSN Code</placeholder>
+	</input>
+	<input>
+		<label>GST Rate</label>
+		<type type="number"></type>
+		<name>GST Rate</name>
+		<placeholder>Enter GST Rate </placeholder>
+	</input>
+	<input>
+		<label>Product Description</label>
+		<type type="textarea"></type>
+		<placeholder>Enter Product Description</placeholder>
+		<name>Product_Desc</name>
+	</input>
+	<input>
+		<label>Product Image</label>
+		<type type="file"></type>
+		<name>Product_image</name>
+	</input>
+	<input>
+		<label>Product MRP</label>
+		<type type="number"></type>
+		<placeholder>Enter Product MRP</placeholder>
+		<name>Product_MRP</name>
+	</input>
+</createProduct>

@@ -1,0 +1,90 @@
+<CreateTransporter>
+
+    <input>
+	<label>Name</label>
+	<type type="text">text</type>
+    <name>Name</name>
+    <placeholder>Enter Name</placeholder>
+	</input>
+
+ <input>
+	<label>Address</label>
+	<type type="textarea">text</type>
+    <name>address</name>
+    <placeholder>Enter Address</placeholder>
+	</input>
+    <input>
+	<label>Mobile No.</label>
+	<type type="number">text</type>
+	<phoneinput>phoneinput</phoneinput>
+    <name>mobileno</name>
+    <placeholder>Enter Mobile No</placeholder>
+	</input>
+
+	<input>
+	<label>Email</label>
+	<type type="email">email</type>
+    <name>email</name>
+    <placeholder>Enter Email</placeholder>
+	</input>
+
+	<input>
+	<label>GST No.</label>
+	<type type="text">gst</type>
+    <name>GSTNo</name>
+    <placeholder>Enter Gst No</placeholder>
+	</input>
+
+	<input>
+	<label>Service Area</label>
+	<type type="text">Service Area</type>
+    <name>ServiceArea</name>
+    <placeholder>Enter Service Area</placeholder>
+	</input>
+
+	<input>
+	<label>Contact Details</label>
+	<type type="number">Contact</type>
+    <name>ContactDetails</name>
+    <placeholder>Enter ContactDetails</placeholder>
+	</input>
+
+<input>
+<label>Country</label>
+<name>Country</name>
+<type type="text"/>
+<library>yes</library>
+</input>
+
+<input>
+<label>State</label>
+<!-- <role name="SUPERADMIN">
+<permissions>View,Edit</permissions>
+</role> -->
+<!-- <role name="ADMIN">
+<permissions>View</permissions>
+</role> -->
+<!-- <role name="WARRANTY APPROVER">
+<permissions>View,Edit</permissions>
+</role> -->
+<library>yes</library>
+<type type="text"/>
+<name>State</name>
+</input>
+
+<input>
+<!-- <role name="SUPERADMIN">
+<permissions>View,Edit</permissions>
+</role> -->
+<!-- <role name="ADMIN">
+<permissions>View</permissions>
+</role> -->
+<!-- <role name="WARRANTY APPROVER">
+<permissions>View,Edit</permissions>
+</role> -->
+<label>City</label>
+<name>City</name>
+<library>yes</library>
+<type type="text"/>
+</input>
+</CreateTransporter>

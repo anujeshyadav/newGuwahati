@@ -1,0 +1,26 @@
+.col-md-2 {
+    /* border: 1px solid; */
+    /* margin-bottom: 20px;
+    margin-left: 30px;
+    border-radius: 10px; */
+  
+}     
+.filefolder.card {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.button.btn.btn-danger.float-right{
+    margin-right: -22rem;
+}
+.float-right.col {
+    margin-right: -45rem;
+}
+.bt{
+    margin-top: 18px;
+}
+/* [dir] input[type="radio"], [dir] input[type="checkbox"] {
+    height: 21px;
+    width: 41px;
+    padding: 0;
+} */

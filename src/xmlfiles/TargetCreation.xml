@@ -1,0 +1,77 @@
+<CreateTarget>
+	<MyDropDown>
+		<dropdown>
+			<label>Product List</label>
+			<name>ProductName</name>
+			<option value="001">001</option>
+			<option value="002">002</option>
+			<option value="003">003</option>
+		</dropdown>
+	</MyDropDown>
+	<MyDropDown>
+		<dropdown>
+			<label>Party List</label>
+			<name>PartyName</name>
+			<option value="001">001</option>
+			<option value="002">002</option>
+			<option value="003">003</option>
+		</dropdown>
+	</MyDropDown>
+
+	<MyDropDown>
+		<dropdown>
+			<label>Unit</label>
+			<name>Unit</name>
+			<option value="001">001</option>
+			<option value="002">002</option>
+			<option value="003">003</option>
+		</dropdown>
+	</MyDropDown>
+	
+	<input>
+		<label>Product Title</label>
+		<type type="text"></type>
+		<Readonly>yes</Readonly>
+		<name>Product_Title</name>
+		<placeholder>Enter Product title</placeholder>
+	</input>
+	<input>
+		<label>Size</label>
+		<type type="number"></type>
+		<name>targetQty</name>
+		<placeholder>Enter Size </placeholder>
+	</input>
+	<input>
+		<label>HSN Code</label>
+		<Readonly>yes</Readonly>
+		<type type="text"></type>
+		<name>HSN_Code</name>
+		<placeholder>HSN Code</placeholder>
+	</input>
+	
+	<input>
+		<label>GST Rate</label>
+		<type type="number"></type>
+		<name>GST Rate</name>
+		<Readonly>yes</Readonly>
+
+		<placeholder>Enter GST Rate </placeholder>
+	</input>
+	<input>
+		<label>Product Description</label>
+		<type type="textarea"></type>
+		<Readonly>yes</Readonly>
+
+		<placeholder>Enter Product Description</placeholder>
+		<name>Product_Desc</name>
+	</input>
+	
+	<input>
+		<label>Product MRP</label>
+		<Readonly>yes</Readonly>
+		<type type="number"></type>
+		<placeholder>Enter Product MRP</placeholder>
+		<name>Product_MRP</name>
+	</input>
+
+</CreateTarget>

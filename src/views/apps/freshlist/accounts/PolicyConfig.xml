@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+
+<Policy>
+
+<DropdownPolicy>
+
+<dropdown>
+
+<label>Policy Defination </label>
+
+<name>Warranty</name>
+
+<option value="Standard Warranty">Standard Warranty</option>
+<option value="Extended Warranty"> Extended Warranty</option>
+<option value="AMC">AMC</option>
+<option value="Maintenance">Maintenance</option>
+<option value="Installation">Installation</option>
+<option value=" Supplier Warranty"> Supplier Warranty</option>
+</dropdown>
+
+</DropdownPolicy>
+
+<input>
+<label>Policy Name</label>
+<type type="text">text</type>
+<name>PolicyName</name>
+<placeholder>Enter Policy Name</placeholder>	
+</input>
+
+<input>
+<label>Purchase Date</label>
+<type type="date">text</type>
+<name>PurchaseDate</name>
+</input>
+
+<input>
+<label>Shipped Date</label>
+<type type="date">text</type>
+<name>ShippedDate</name>
+</input>
+<input>
+<label>Received Date</label>
+<type type="date">text</type>
+<name>ReceivedDate</name>
+</input>
+<input>
+<label>Installation Date</label>
+<type type="date">text</type>
+<name>InstallationDate</name>
+</input>
+
+<input>
+<label>Policy Duration</label>
+<type type="date">text</type>
+<name>PolicyDuration</name>
+</input>
+
+<DropdownUnit>
+<dropdown>
+<label>Units</label>
+
+<name>Unit</name>
+
+<option value="KM">KM</option>
+<option value="Miles">Miles</option>
+<option value="Wattage">Wattage</option>
+<option value="Voltage">Voltage</option>
+<option value="Hours">Hours</option>
+</dropdown>
+</DropdownUnit>
+
+<input>
+<label>Policy Start Date</label>
+<type type="date">text</type>
+<name>PolicyStartDate</name>
+</input>
+<input>
+<label>Policy End Date</label>
+<type type="date">text</type>
+<name>PolicyEndDate</name>
+</input>
+
+<input>
+<label>Policy Creation Date</label>
+<type type="date">text</type>
+<name>CreationStartDate</name>
+</input>
+
+<DropdownProduct>
+<dropdown>
+<label>Product List</label>
+
+<name>Producttype</name>
+
+<option value="AC">AC</option>
+<option value="Refrigerator">Refrigerator</option>
+<option value="Sound System">Sound System</option>
+<option value="Water Purifier">Water Purifier</option>
+<option value="TV">TV</option>
+
+</dropdown>
+</DropdownProduct>
+
+
+<DropdownModel>
+<dropdown>
+<label>Model</label>
+
+<name>Modeltype</name>
+
+<option value="1 Tonne">1 Tonne</option>
+<option value="1.5 Tonne">1.5 Tonne</option>
+<option value="2 Tonne">2 Tonne</option>
+</dropdown>
+</DropdownModel>
+
+<DropdownVariant>
+<dropdown>
+<label>Variant</label>
+
+<name>Varianttype</name>
+
+<option value="160 watts">160 watts</option>
+<option value="180 watts">180 watts</option>
+<option value="220 watts">220 watts</option>
+</dropdown>
+</DropdownVariant>
+
+
+<DropdownYear>
+<dropdown>
+<label>Year Of Make</label>
+
+<name>MakingYear</name>
+
+<option value="2000">2000</option>
+<option value="2001">2001</option>
+<option value="2002">2002</option>
+<option value="2003">2003</option>
+<option value="2004">2004</option>
+</dropdown>
+</DropdownYear>
+
+
+<DropdownRole>
+<dropdown>
+<label>Role</label>
+<name>Role</name>
+<option value="OEM">OEM</option>
+<option value="SUPERADMIN">SUPERADMIN</option>
+
+<option value="DISTRIBUTOR ADMIN">DISTRIBUTOR ADMIN</option>
+
+<option value="ADMIN">ADMIN</option>
+
+<option value="DISTRIBUTOR">DISTRIBUTOR</option>
+
+<option value="DEALER ADMIN">DEALER ADMIN</option>
+
+<option value="DEALER">DEALER</option>
+
+<option value=" WARRANTY SUPERVISER">WARRANTY SUPERVISER</option>
+
+<option value=" WARRANTY APPROVER">WARRANTY APPROVER</option>
+
+<option value=" WARRANTY REVIWER">WARRANTY REVIWER</option>
+
+<option value="SUPERVISER">SUPERVISER</option>
+
+</dropdown>
+
+</DropdownRole>
+
+<DropdownPartner>
+<dropdown>
+<label>Partner Code</label>
+<name>Partner Code</name>
+<option value="101">101</option>
+<option value="102">102</option>
+<option value="103">103</option>
+<option value="104">104</option>
+</dropdown>
+
+</DropdownPartner>
+<input>
+		<label>Partner Name</label>
+		<type type="text">text</type>
+		<name>PartnerName</name>
+		<placeholder>Enter Partner Name</placeholder>
+	</input>
+
+    <input>
+		<label>Partner Address</label>
+		<type type="textarea">text</type>
+		<name>PartnerAddress</name>
+		<placeholder>Enter Partner Address</placeholder>
+	</input>
+
+
+
+    <input>
+		<label>Product# </label>
+		<type type="text">text</type>
+		<name>Product</name>
+	</input>
+    <input>
+		<label>Part# </label>
+		<type type="text">text</type>
+		<name>Part</name>
+	</input>
+    <input>
+		<label>Part Name</label>
+		<type type="text">text</type>
+		<name>PartName</name>
+		<placeholder>Enter Part Name</placeholder>
+	</input>
+    <input>
+		<label>Color</label>
+		<type type="text">text</type>
+		<name>Color</name>
+		<placeholder>Enter Color</placeholder>
+	</input>
+	
+	<Radiobutton>
+		<Heading>Status</Heading>
+
+		<input>
+			<label>Active</label>
+			<type type="radio">text</type>
+			<name>Status</name>
+		</input>
+
+		<input>
+			<label>Deactive</label>
+			<type type="radio">text</type>
+			<name>Status</name>
+		</input>
+	</Radiobutton>
+
+</Policy>
+

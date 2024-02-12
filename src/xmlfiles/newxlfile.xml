@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<CreateCustomer>
+
+
+<MyDropDown>
+<dropdown>
+<label>Select Customer Type</label>
+<name>CustomerTyoe</name>
+<option value="Creditor">Creditor</option>
+<option value="Debitor">Debitor</option>
+</dropdown>
+</MyDropDown>
+
+
+<input>
+<label>Firm Name</label>
+<type type="text"></type>
+<name>firmName</name>
+<placeholder>Enter Firm Name</placeholder>	
+</input>
+
+<input>
+<label>Firm Address</label>
+<type type="text"></type>
+<name>Firm Addres</name>
+<placeholder>Enter Firm Address</placeholder>	
+</input>
+
+<input>
+<label>GST Number </label>
+<type type="text"></type>
+<name>Gstnumber</name>
+<placeholder>Enter GST number</placeholder>	
+</input>
+
+<input>
+<label>Email id</label>
+<type type="email"></type>
+<name>email</name>
+<placeholder>Enter Email id</placeholder>	
+</input>
+
+<input>
+<label>Geo Tagging</label>
+<type type="text"></type>
+<name>Geotagging</name>
+<placeholder>Enter Geo tagging</placeholder>	
+</input>
+
+
+
+<input>
+<label>Deals in Product</label>
+<type type="text"></type>
+<name>dealing_Product_name</name>
+<placeholder>Enter Deals in Product Name</placeholder>	
+</input>
+
+<input>
+<label>Annual Turnover</label>
+<type type="number"></type>
+<number>yes</number>
+<name>Annaul_turnover</name>
+<placeholder>Enter Annual Turnover</placeholder>	
+</input>
+
+<input>
+<label>Owner Name</label>
+<type type="text"></type>
+<name>OwnerName</name>
+<placeholder>Enter Owner Name</placeholder>	
+</input>
+
+<input>
+<label>Owner Address</label>
+<type type="text"></type>
+<name>OwnerAddress</name>
+<placeholder>Enter Owner Address</placeholder>	
+</input>
+
+<input>
+<label>Owner Mobile Number</label>
+<type type="text"></type>
+<name>Owner_Mobile_numer</name>
+<placeholder>Enter Owner Mobile Number</placeholder>	
+</input>
+
+<input>
+<label>Grade</label>
+<type type="text"></type>
+<name>Grade</name>
+<placeholder>Enter grade</placeholder>	
+</input>
+
+<input>
+<label>Category</label>
+<type type="text"></type>
+<name>Category</name>
+<placeholder>Enter Category Name</placeholder>	
+</input>
+
+<input>
+<label>Shop Size</label>
+<type type="text"></type>
+<name>ShopSize</name>
+<placeholder>Enter Shop Size</placeholder>	
+</input>
+
+<input>
+<label>Shop Photo</label>
+<type type="file"></type>
+<name>Shopphoto</name>
+</input>
+
+<input>
+<label>Discount (%)</label>
+<type type="text"></type>
+<number>yes</number>
+<name>Discount</name>
+</input>
+
+<input>
+<label>Due Date</label>
+<type type="date"></type>
+<name>Duedate</name>
+</input>
+
+<input>
+<label>Lock in time</label>
+<type type="text"></type>
+<name>Lock_in_time</name>
+<placeholder>Enter Lock in time</placeholder>	
+</input>
+
+<input>
+<label>Limit</label>
+<type type="text"></type>
+<name>limit</name>
+<number>yes</number>
+<placeholder>Enter Limit</placeholder>	
+</input>
+
+<input>
+<label>Photo</label>
+<type type="file"></type>
+<name>photo</name>
+</input>
+
+<input>
+<label>Payment Term</label>
+<type type="textarea"></type>
+<name>PaymentTerm</name>
+<placeholder>Enter Payment Term</placeholder>	
+</input>
+
+<input>
+<label>OTP Auth</label>
+<type type="text"></type>
+<name>otp_auth</name>
+<placeholder>Enter OTP Auth</placeholder>	
+</input>
+
+<input>
+<label>Grade Wise Discount</label>
+<type type="text"></type>
+<name>GradeWise_discount</name>
+<placeholder>Enter Grade wise Discount</placeholder>	
+</input>
+
+<input>
+<label>Transporter Details</label>
+<type type="text"></type>
+<name>transposrter_detail</name>
+<placeholder>Enter Reference Name of 1st</placeholder>	
+</input>
+
+<input>
+<label>PAN Number </label>
+<type type="text"></type>
+<name>Pan_Num</name>
+<placeholder>Enter PAN Number</placeholder>	
+</input>
+
+<input>
+<label>Service Area with</label>
+<type type="textarea"></type>
+<name>Service Area</name>
+<placeholder>Enter Service Area</placeholder>	
+</input>
+
+<input>
+<label>Contact Details</label>
+<type type="text"></type>
+<name>Contact Details</name>
+<placeholder>Enter Contact Details</placeholder>	
+</input>
+
+
+</CreateCustomer>
+
